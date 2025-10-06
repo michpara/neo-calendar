@@ -1,4 +1,4 @@
-# === Imports ===
+v# === Imports ===
 import os
 import pytz
 import requests
@@ -60,6 +60,22 @@ def get_google_calendar_service():
 
     return build("calendar", "v3", credentials=creds)
 
+# === Delete all events from Google Calendar ===
+def delete_all_events(service, calendar_id=GOOGLE_CALENDAR_ID):
+    """Deletes all events from the specified Google Calendar."""
+    page_token = None
+    while True:
+        events = service.events().list(calendarId=calendar_id, pageToken=page_token).execute()
+        for event in events.get('items', []):
+            try:
+                service.events().delete(calendarId=calendar_id, eventId=event['id']).execute()
+                print(f"Deleted event: {event.get('summary', '(no title)')}")
+            except Exception as e:
+                print(f"⚠️ Could not delete event: {e}")
+        page_token = events.get('nextPageToken')
+        if not page_token:
+            break
+
 # === Fetch Near-Earth Object Data ===
 try:
     response = requests.get("https://api.nasa.gov/neo/rest/v1/feed", params=params)
@@ -68,6 +84,13 @@ try:
 except Exception as e:
     print(f"❌ Failed to fetch NEO data: {e}")
     exit(1)
+
+# === Authenticate once ===
+calendar_service = get_google_calendar_service()
+
+# === Delete all existing events before adding new ones ===
+print("🗑️ Deleting all existing events from Google Calendar...")
+delete_all_events(calendar_service)
 
 # === Process Each Asteroid ===
 for date_key in sorted(neo_data.get("near_earth_objects", {})):
@@ -150,7 +173,6 @@ for date_key in sorted(neo_data.get("near_earth_objects", {})):
                 }
             }
 
-            calendar_service = get_google_calendar_service()
             created_event = calendar_service.events().insert(
                 calendarId=GOOGLE_CALENDAR_ID, body=gcal_event
             ).execute()
@@ -164,4 +186,5 @@ for date_key in sorted(neo_data.get("near_earth_objects", {})):
 with open("calendar.ics", "wb") as f:
     f.write(local_calendar.to_ical())
     print("📁 Saved local ICS calendar as 'calendar.ics'")
+
 
