@@ -1,0 +1,48 @@
+name: Weekly Asteroid Calendar Update
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'  # Runs every Sunday at 00:00 UTC
+  workflow_dispatch:  # Optional manual trigger (remove if not needed)
+
+permissions:
+  contents: write
+
+jobs:
+  update-calendar:
+    runs-on: ubuntu-latest
+
+    env:
+      NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
+      GOOGLE_CALENDAR_ID: ${{ secrets.GOOGLE_CALENDAR_ID }}
+      GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: Write Google credentials file
+        run: echo "$GOOGLE_CREDENTIALS_JSON" > credentials.json
+
+      - name: Run update script
+        run: python update_asteroid_calendar.py
+
+      - name: Commit and push calendar.ics (if changed)
+        run: |
+          git config --global user.name "eseabro"
+          git config --global user.email "e.seabrook55@gmail.com"
+          git add calendar.ics
+          git diff --cached --quiet || git commit -m "Update asteroid calendar"
+          git push
