@@ -164,4 +164,4 @@ for date_key in sorted(neo_data.get("near_earth_objects", {})):
 with open("calendar.ics", "wb") as f:
     f.write(local_calendar.to_ical())
     print("📁 Saved local ICS calendar as 'calendar.ics'")
-u
+
