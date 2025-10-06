@@ -2,8 +2,8 @@ name: Weekly Asteroid Calendar Update
 
 on:
   schedule:
-    - cron: '0 0 * * 1'  # Runs every Sunday at 00:00 UTC
-  workflow_dispatch:  # Optional manual trigger (remove if not needed)
+    - cron: '0 0 * * 1' # Every Monday at 00:00 UTC
+  workflow_dispatch:  # Allows manual trigger
 
 permissions:
   contents: write
@@ -12,37 +12,35 @@ jobs:
   update-calendar:
     runs-on: ubuntu-latest
 
-    env:
-      NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
-      GOOGLE_CALENDAR_ID: ${{ secrets.GOOGLE_CALENDAR_ID }}
-      GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set up Python
+      - name: Set up Python 3.10
         uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
+          python-version: '3.10'
 
       - name: Install dependencies
         run: |
-          pip install --upgrade pip
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Write Google credentials file
-        run: echo "$GOOGLE_CREDENTIALS_JSON" > credentials.json
+      - name: Write Google credentials.json from secret
+        run: echo "${{ secrets.GOOGLE_CREDENTIALS_JSON }}" > credentials.json
 
-      - name: Run update script
+      - name: Write Google token.json from secret
+        run: echo "${{ secrets.GOOGLE_TOKEN_JSON }}" > token.json
+
+      - name: Run asteroid calendar update script
+        env:
+          NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
+          GOOGLE_CALENDAR_ID: ${{ secrets.GOOGLE_CALENDAR_ID }}
         run: python update_calendar.py
 
-      - name: Commit and push calendar.ics (if changed)
+      - name: Commit and push calendar.ics changes
         run: |
-          git config --global user.name "eseabro"
-          git config --global user.email "e.seabrook55@gmail.com"
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
           git add calendar.ics
           git diff --cached --quiet || git commit -m "Update asteroid calendar"
           git push
