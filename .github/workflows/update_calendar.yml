@@ -37,7 +37,7 @@ jobs:
         run: echo "$GOOGLE_CREDENTIALS_JSON" > credentials.json
 
       - name: Run update script
-        run: python update_asteroid_calendar.py
+        run: python update_calendar.py
 
       - name: Commit and push calendar.ics (if changed)
         run: |
