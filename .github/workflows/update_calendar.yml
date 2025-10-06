@@ -25,16 +25,11 @@ jobs:
         run: |
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Write Google credentials.json from secret
-        run: echo "${{ secrets.GOOGLE_CREDENTIALS_JSON }}" > credentials.json
-
-      - name: Write Google token.json from secret
-        run: echo "${{ secrets.GOOGLE_TOKEN_JSON }}" > token.json
-
       - name: Run asteroid calendar update script
         env:
           NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
           GOOGLE_CALENDAR_ID: ${{ secrets.GOOGLE_CALENDAR_ID }}
+          GOOGLE_TOKEN_JSON: ${{ secrets.GOOGLE_TOKEN_JSON }}
         run: python update_calendar.py
 
       - name: Commit and push calendar.ics changes
