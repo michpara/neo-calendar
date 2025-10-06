@@ -1,8 +1,8 @@
-name: Weekly Asteroid Calendar Update
+name: Asteroid Calendar Update (Every 5 Minutes)
 
 on:
   schedule:
-    - cron: '0 0 * * 1' # Every Monday at 00:00 UTC
+    - cron: '*/5 * * * *'  # Every 5 minutes
   workflow_dispatch:  # Allows manual trigger
 
 permissions:
