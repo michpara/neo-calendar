@@ -1,23 +1,20 @@
-# === Imports ===
+# update_calendar.py
 import os
+import json
 import pytz
 import requests
 from datetime import datetime, timedelta, timezone
 from icalendar import Calendar, Event
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
-from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
 # === Load Config from Environment ===
 API_KEY = os.getenv("NASA_API_KEY")
 GOOGLE_CALENDAR_ID = os.getenv("GOOGLE_CALENDAR_ID")
-GOOGLE_CREDENTIALS_FILE = "credentials.json"
-TOKEN_FILE = "token.json"
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
 
-# === Safety Checks ===
 if not API_KEY or not GOOGLE_CALENDAR_ID:
     raise EnvironmentError("Missing required environment variables: NASA_API_KEY or GOOGLE_CALENDAR_ID")
 
@@ -36,43 +33,39 @@ local_calendar = Calendar()
 local_calendar.add("prodid", "-//Near Earth Asteroid Tracker//example.com//")
 local_calendar.add("version", "2.0")
 
-# === Google Calendar Auth ===
+# === Google Calendar Auth (using token JSON from env variable) ===
 def get_google_calendar_service():
-    """Returns an authenticated Google Calendar service."""
     creds = None
+    token_json_str = os.getenv("GOOGLE_TOKEN_JSON")
 
-    if os.path.exists(TOKEN_FILE):
-        creds = Credentials.from_authorized_user_file(TOKEN_FILE, SCOPES)
+    if not token_json_str:
+        raise RuntimeError("Missing GOOGLE_TOKEN_JSON environment variable")
 
-    if not creds or not creds.valid:
-        if creds and creds.expired and creds.refresh_token:
-            creds.refresh(Request())
-        else:
-            if not os.path.exists(GOOGLE_CREDENTIALS_FILE):
-                raise FileNotFoundError("Missing Google credentials.json file")
+    creds = Credentials.from_authorized_user_info(json.loads(token_json_str), SCOPES)
 
-            flow = InstalledAppFlow.from_client_secrets_file(GOOGLE_CREDENTIALS_FILE, SCOPES)
-            creds = flow.run_local_server(port=0)
-
-        # Save credentials for future use
-        with open(TOKEN_FILE, "w") as token_file:
-            token_file.write(creds.to_json())
+    # Refresh token if expired
+    if not creds.valid and creds.expired and creds.refresh_token:
+        creds.refresh(Request())
 
     return build("calendar", "v3", credentials=creds)
 
-# === Delete all events from Google Calendar ===
+# === Delete All Events from Google Calendar ===
 def delete_all_events(service, calendar_id=GOOGLE_CALENDAR_ID):
-    """Deletes all events from the specified Google Calendar."""
+    print("🗑️ Deleting all existing events...")
     page_token = None
     while True:
-        events = service.events().list(calendarId=calendar_id, pageToken=page_token).execute()
-        for event in events.get('items', []):
+        events_result = service.events().list(
+            calendarId=calendar_id, pageToken=page_token).execute()
+        events = events_result.get('items', [])
+        if not events:
+            break
+        for event in events:
             try:
                 service.events().delete(calendarId=calendar_id, eventId=event['id']).execute()
                 print(f"Deleted event: {event.get('summary', '(no title)')}")
             except Exception as e:
                 print(f"⚠️ Could not delete event: {e}")
-        page_token = events.get('nextPageToken')
+        page_token = events_result.get('nextPageToken')
         if not page_token:
             break
 
@@ -85,36 +78,32 @@ except Exception as e:
     print(f"❌ Failed to fetch NEO data: {e}")
     exit(1)
 
-# === Authenticate once ===
-calendar_service = get_google_calendar_service()
+# === Main Script ===
+try:
+    calendar_service = get_google_calendar_service()
+    delete_all_events(calendar_service, GOOGLE_CALENDAR_ID)
+except Exception as e:
+    print(f"❌ Google Calendar authentication or deletion error: {e}")
+    exit(1)
 
-# === Delete all existing events before adding new ones ===
-print("🗑️ Deleting all existing events from Google Calendar...")
-delete_all_events(calendar_service)
-
-# === Process Each Asteroid ===
 for date_key in sorted(neo_data.get("near_earth_objects", {})):
     for asteroid in neo_data["near_earth_objects"][date_key]:
         try:
-            # Skip if no approach data or not a sentry object
             approach_info = asteroid.get("close_approach_data", [])
             if not approach_info or not asteroid["is_sentry_object"]:
                 continue
 
             date_full = approach_info[0].get("close_approach_date_full", "")
             if " " not in date_full:
-                continue  # Skip if time is not provided
+                continue  # Skip if time not provided
 
-            # Convert to datetime (UTC)
             date_part, time_part = date_full.split()
             dt = datetime.strptime(f"{date_part} {time_part}", "%Y-%b-%d %H:%M").replace(tzinfo=pytz.utc)
 
-            # Round time to 5-minute blocks
             rounded_minute = (dt.minute // 5) * 5
             start_time = dt.replace(minute=rounded_minute, second=0)
             end_time = start_time + timedelta(minutes=5)
 
-            # Extract asteroid details
             diameter_min = float(asteroid["estimated_diameter"]["kilometers"]["estimated_diameter_min"])
             diameter_max = float(asteroid["estimated_diameter"]["kilometers"]["estimated_diameter_max"])
             is_hazardous = asteroid["is_potentially_hazardous_asteroid"]
@@ -124,7 +113,6 @@ for date_key in sorted(neo_data.get("near_earth_objects", {})):
             abs_magnitude = asteroid.get("absolute_magnitude_h", "N/A")
             jpl_url = asteroid.get("nasa_jpl_url", "")
 
-            # Calculations
             diameter_m = diameter_min * 1000
             velocity_kmh = velocity_kms * 3600
             moon_distance_km = 384_400
@@ -136,7 +124,6 @@ for date_key in sorted(neo_data.get("near_earth_objects", {})):
             jet_speed_kmh = 900
             speed_vs_jet = velocity_kmh / jet_speed_kmh
 
-            # Description
             description = (
                 f"{hazard_msg}\n\n"
                 f"Diameter: {diameter_min:.2f}–{diameter_max:.2f} km (~{diameter_m:.0f} meters, "
@@ -151,7 +138,7 @@ for date_key in sorted(neo_data.get("near_earth_objects", {})):
             if jpl_url:
                 description += f"\nMore Info: {jpl_url}"
 
-            # === Add to ICS File ===
+            # Add to local ICS calendar
             ics_event = Event()
             ics_event.add("summary", asteroid["name"])
             ics_event.add("dtstart", start_time)
@@ -159,7 +146,7 @@ for date_key in sorted(neo_data.get("near_earth_objects", {})):
             ics_event.add("description", description)
             local_calendar.add_component(ics_event)
 
-            # === Upload to Google Calendar ===
+            # Upload event to Google Calendar
             gcal_event = {
                 "summary": asteroid["name"],
                 "description": description,
@@ -182,7 +169,8 @@ for date_key in sorted(neo_data.get("near_earth_objects", {})):
         except Exception as e:
             print(f"⚠️ Skipped asteroid due to error: {e}")
 
-# === Save Local ICS File ===
+# Save the local ICS calendar file
 with open("calendar.ics", "wb") as f:
     f.write(local_calendar.to_ical())
     print("📁 Saved local ICS calendar as 'calendar.ics'")
+
