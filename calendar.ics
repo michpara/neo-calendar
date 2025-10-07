@@ -2,17 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
-SUMMARY:(2019 ED1)
-DTSTART:20251006T233000Z
-DTEND:20251006T233500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
- m (~8 meters\, ~0.1 football fields)\n\nVelocity: 13.85 km/s (~49\,870 km/
- h\, ~55.4x jet speed)\n\nDistance: 57\,668\,727 km (~150.0x Moon distance)
- \n\nAbsolute Magnitude (H): 27.63\nOrbiting Body: Earth\n\nThis asteroid p
- oses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tool
- s/sbdb_lookup.html#/?sstr=3838904
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2023 SL5)
 DTSTART:20251010T104500Z
 DTEND:20251010T105000Z
