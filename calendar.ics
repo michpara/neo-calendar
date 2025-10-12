@@ -112,17 +112,6 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.02–0.03 k
  s/sbdb_lookup.html#/?sstr=54495421
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:(2025 SX26)
-DTSTART:20251016T021500Z
-DTEND:20251016T022000Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.02–0.03 k
- m (~15 meters\, ~0.2 football fields)\n\nVelocity: 8.43 km/s (~30\,357 km/
- h\, ~33.7x jet speed)\n\nDistance: 3\,314\,364 km (~8.6x Moon distance)\n\
- nAbsolute Magnitude (H): 26.199\nOrbiting Body: Earth\n\nThis asteroid pos
- es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
- sbdb_lookup.html#/?sstr=54549124
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2019 GK3)
 DTSTART:20251018T073000Z
 DTEND:20251018T073500Z
