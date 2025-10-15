@@ -89,4 +89,15 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
   no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/sb
  db_lookup.html#/?sstr=54397152
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2019 JY2)
+DTSTART:20251022T005000Z
+DTEND:20251022T005500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
+ m (~3 meters\, ~0.0 football fields)\n\nVelocity: 19.59 km/s (~70\,520 km/
+ h\, ~78.4x jet speed)\n\nDistance: 59\,262\,852 km (~154.2x Moon distance)
+ \n\nAbsolute Magnitude (H): 29.6\nOrbiting Body: Earth\n\nThis asteroid po
+ ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
+ /sbdb_lookup.html#/?sstr=3841761
+END:VEVENT
 END:VCALENDAR
