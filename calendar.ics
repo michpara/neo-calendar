@@ -2,17 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
-SUMMARY:(2013 CY)
-DTSTART:20251015T164000Z
-DTEND:20251015T164500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.01 k
- m (~6 meters\, ~0.1 football fields)\n\nVelocity: 12.53 km/s (~45\,095 km/
- h\, ~50.1x jet speed)\n\nDistance: 49\,793\,994 km (~129.5x Moon distance)
- \n\nAbsolute Magnitude (H): 28.19\nOrbiting Body: Earth\n\nThis asteroid p
- oses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tool
- s/sbdb_lookup.html#/?sstr=3625730
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2008 JL24)
 DTSTART:20251016T172500Z
 DTEND:20251016T173000Z
