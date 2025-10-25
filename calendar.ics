@@ -1,4 +1,26 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
+BEGIN:VEVENT
+SUMMARY:(2020 FA5)
+DTSTART:20251026T022000Z
+DTEND:20251026T022500Z
+DESCRIPTION:This asteroid **IS** hazardous.\n\nDiameter: 0.16–0.35 km (~
+ 157 meters\, ~1.7 football fields)\n\nVelocity: 26.54 km/s (~95\,527 km/h\
+ , ~106.1x jet speed)\n\nDistance: 6\,031\,044 km (~15.7x Moon distance)\n\
+ nAbsolute Magnitude (H): 21.14\nOrbiting Body: Earth\n\nThis asteroid pose
+ s no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/s
+ bdb_lookup.html#/?sstr=54016365
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2012 TP20)
+DTSTART:20251101T120500Z
+DTEND:20251101T121000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
+ m (~7 meters\, ~0.1 football fields)\n\nVelocity: 20.48 km/s (~73\,737 km/
+ h\, ~81.9x jet speed)\n\nDistance: 65\,667\,223 km (~170.8x Moon distance)
+ \n\nAbsolute Magnitude (H): 27.8\nOrbiting Body: Earth\n\nThis asteroid po
+ ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
+ /sbdb_lookup.html#/?sstr=3609843
+END:VEVENT
 END:VCALENDAR
