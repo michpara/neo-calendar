@@ -34,4 +34,15 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
  ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
  /sbdb_lookup.html#/?sstr=3609843
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2024 UN)
+DTSTART:20251102T200500Z
+DTEND:20251102T201000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.03 k
+ m (~13 meters\, ~0.1 football fields)\n\nVelocity: 21.26 km/s (~76\,520 km
+ /h\, ~85.0x jet speed)\n\nDistance: 53\,396\,857 km (~138.9x Moon distance
+ )\n\nAbsolute Magnitude (H): 26.62\nOrbiting Body: Earth\n\nThis asteroid 
+ poses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/too
+ ls/sbdb_lookup.html#/?sstr=54494256
+END:VEVENT
 END:VCALENDAR
