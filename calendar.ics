@@ -2,6 +2,17 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
+SUMMARY:(2025 UK9)
+DTSTART:20251030T213000Z
+DTEND:20251030T213500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
+ m (~3 meters\, ~0.0 football fields)\n\nVelocity: 7.79 km/s (~28\,050 km/h
+ \, ~31.2x jet speed)\n\nDistance: 419\,470 km (~1.1x Moon distance)\n\nAbs
+ olute Magnitude (H): 29.804\nOrbiting Body: Earth\n\nThis asteroid poses n
+ o risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/sbdb
+ _lookup.html#/?sstr=54555159
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:(2012 TP20)
 DTSTART:20251101T120500Z
 DTEND:20251101T121000Z
