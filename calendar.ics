@@ -78,4 +78,15 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.00 k
  ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
  /sbdb_lookup.html#/?sstr=54268448
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2020 HN3)
+DTSTART:20251112T201000Z
+DTEND:20251112T201500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
+ m (~4 meters\, ~0.0 football fields)\n\nVelocity: 17.66 km/s (~63\,564 km/
+ h\, ~70.6x jet speed)\n\nDistance: 68\,031\,586 km (~177.0x Moon distance)
+ \n\nAbsolute Magnitude (H): 29.4\nOrbiting Body: Earth\n\nThis asteroid po
+ ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
+ /sbdb_lookup.html#/?sstr=54016668
+END:VEVENT
 END:VCALENDAR
