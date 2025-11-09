@@ -2,17 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
-SUMMARY:(2021 VQ10)
-DTSTART:20251108T011500Z
-DTEND:20251108T012000Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
- m (~10 meters\, ~0.1 football fields)\n\nVelocity: 14.95 km/s (~53\,835 km
- /h\, ~59.8x jet speed)\n\nDistance: 3\,461\,832 km (~9.0x Moon distance)\n
- \nAbsolute Magnitude (H): 27.16\nOrbiting Body: Earth\n\nThis asteroid pos
- es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
- sbdb_lookup.html#/?sstr=54219286
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2018 GE2)
 DTSTART:20251110T132000Z
 DTEND:20251110T132500Z
