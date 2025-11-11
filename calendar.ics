@@ -12,4 +12,48 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
  ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
  /sbdb_lookup.html#/?sstr=3359094
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2013 GM3)
+DTSTART:20251114T180500Z
+DTEND:20251114T181000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.03 k
+ m (~15 meters\, ~0.2 football fields)\n\nVelocity: 8.45 km/s (~30\,426 km/
+ h\, ~33.8x jet speed)\n\nDistance: 47\,293\,375 km (~123.0x Moon distance)
+ \n\nAbsolute Magnitude (H): 26.3\nOrbiting Body: Earth\n\nThis asteroid po
+ ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
+ /sbdb_lookup.html#/?sstr=3634154
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2020 HW7)
+DTSTART:20251114T224500Z
+DTEND:20251114T225000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
+ m (~10 meters\, ~0.1 football fields)\n\nVelocity: 20.12 km/s (~72\,437 km
+ /h\, ~80.5x jet speed)\n\nDistance: 56\,506\,068 km (~147.0x Moon distance
+ )\n\nAbsolute Magnitude (H): 27.1\nOrbiting Body: Earth\n\nThis asteroid p
+ oses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tool
+ s/sbdb_lookup.html#/?sstr=54016809
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2017 RN16)
+DTSTART:20251115T052500Z
+DTEND:20251115T053000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
+ m (~4 meters\, ~0.0 football fields)\n\nVelocity: 8.07 km/s (~29\,051 km/h
+ \, ~32.3x jet speed)\n\nDistance: 66\,776\,292 km (~173.7x Moon distance)\
+ n\nAbsolute Magnitude (H): 28.9\nOrbiting Body: Earth\n\nThis asteroid pos
+ es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
+ sbdb_lookup.html#/?sstr=3781579
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2018 VT5)
+DTSTART:20251118T052000Z
+DTEND:20251118T052500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.01 k
+ m (~5 meters\, ~0.1 football fields)\n\nVelocity: 14.65 km/s (~52\,751 km/
+ h\, ~58.6x jet speed)\n\nDistance: 25\,395\,510 km (~66.1x Moon distance)\
+ n\nAbsolute Magnitude (H): 28.5\nOrbiting Body: Earth\n\nThis asteroid pos
+ es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
+ sbdb_lookup.html#/?sstr=3836131
+END:VEVENT
 END:VCALENDAR
