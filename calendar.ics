@@ -68,6 +68,17 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.01 k
  sbdb_lookup.html#/?sstr=3836131
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:(2024 WW2)
+DTSTART:20251118T200000Z
+DTEND:20251118T200500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.01 k
+ m (~6 meters\, ~0.1 football fields)\n\nVelocity: 14.70 km/s (~52\,934 km/
+ h\, ~58.8x jet speed)\n\nDistance: 25\,792\,919 km (~67.1x Moon distance)\
+ n\nAbsolute Magnitude (H): 28.38\nOrbiting Body: Earth\n\nThis asteroid po
+ ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
+ /sbdb_lookup.html#/?sstr=54500500
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:(2016 JX11)
 DTSTART:20251119T182500Z
 DTEND:20251119T183000Z
@@ -77,5 +88,27 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.03–0.06 k
  \n\nAbsolute Magnitude (H): 25.0\nOrbiting Body: Earth\n\nThis asteroid po
  ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
  /sbdb_lookup.html#/?sstr=3752803
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2022 JM)
+DTSTART:20251119T153500Z
+DTEND:20251119T154000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
+ m (~5 meters\, ~0.1 football fields)\n\nVelocity: 14.95 km/s (~53\,808 km/
+ h\, ~59.8x jet speed)\n\nDistance: 51\,291\,959 km (~133.4x Moon distance)
+ \n\nAbsolute Magnitude (H): 28.8\nOrbiting Body: Earth\n\nThis asteroid po
+ ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
+ /sbdb_lookup.html#/?sstr=54278142
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2025 VK2)
+DTSTART:20251119T121500Z
+DTEND:20251119T122000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.02–0.04 k
+ m (~16 meters\, ~0.2 football fields)\n\nVelocity: 15.14 km/s (~54\,507 km
+ /h\, ~60.6x jet speed)\n\nDistance: 3\,110\,011 km (~8.1x Moon distance)\n
+ \nAbsolute Magnitude (H): 26.081\nOrbiting Body: Earth\n\nThis asteroid po
+ ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
+ /sbdb_lookup.html#/?sstr=54561386
 END:VEVENT
 END:VCALENDAR
