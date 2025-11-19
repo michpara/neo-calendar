@@ -2,28 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
-SUMMARY:(2018 VT5)
-DTSTART:20251118T052000Z
-DTEND:20251118T052500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.01 k
- m (~5 meters\, ~0.1 football fields)\n\nVelocity: 14.65 km/s (~52\,751 km/
- h\, ~58.6x jet speed)\n\nDistance: 25\,395\,510 km (~66.1x Moon distance)\
- n\nAbsolute Magnitude (H): 28.5\nOrbiting Body: Earth\n\nThis asteroid pos
- es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
- sbdb_lookup.html#/?sstr=3836131
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(2024 WW2)
-DTSTART:20251118T200000Z
-DTEND:20251118T200500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.01 k
- m (~6 meters\, ~0.1 football fields)\n\nVelocity: 14.70 km/s (~52\,934 km/
- h\, ~58.8x jet speed)\n\nDistance: 25\,792\,919 km (~67.1x Moon distance)\
- n\nAbsolute Magnitude (H): 28.38\nOrbiting Body: Earth\n\nThis asteroid po
- ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
- /sbdb_lookup.html#/?sstr=54500500
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2016 JX11)
 DTSTART:20251119T182500Z
 DTEND:20251119T183000Z
