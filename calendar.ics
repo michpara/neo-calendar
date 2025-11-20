@@ -28,9 +28,9 @@ SUMMARY:(2025 VO1)
 DTSTART:20251121T032000Z
 DTEND:20251121T032500Z
 DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.03 k
- m (~13 meters\, ~0.1 football fields)\n\nVelocity: 9.35 km/s (~33\,647 km/
- h\, ~37.4x jet speed)\n\nDistance: 1\,009\,566 km (~2.6x Moon distance)\n\
- nAbsolute Magnitude (H): 26.578\nOrbiting Body: Earth\n\nThis asteroid pos
+ m (~13 meters\, ~0.1 football fields)\n\nVelocity: 9.35 km/s (~33\,651 km/
+ h\, ~37.4x jet speed)\n\nDistance: 1\,009\,658 km (~2.6x Moon distance)\n\
+ nAbsolute Magnitude (H): 26.547\nOrbiting Body: Earth\n\nThis asteroid pos
  es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
  sbdb_lookup.html#/?sstr=54561366
 END:VEVENT
@@ -57,13 +57,24 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
  s/sbdb_lookup.html#/?sstr=54221205
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:(2025 VF5)
-DTSTART:20251123T130000Z
-DTEND:20251123T130500Z
+SUMMARY:(2025 VM5)
+DTSTART:20251122T033000Z
+DTEND:20251122T033500Z
 DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
- m (~11 meters\, ~0.1 football fields)\n\nVelocity: 7.81 km/s (~28\,117 km/
- h\, ~31.2x jet speed)\n\nDistance: 1\,171\,314 km (~3.0x Moon distance)\n\
- nAbsolute Magnitude (H): 26.935\nOrbiting Body: Earth\n\nThis asteroid pos
+ m (~10 meters\, ~0.1 football fields)\n\nVelocity: 4.46 km/s (~16\,047 km/
+ h\, ~17.8x jet speed)\n\nDistance: 1\,063\,990 km (~2.8x Moon distance)\n\
+ nAbsolute Magnitude (H): 27.022\nOrbiting Body: Earth\n\nThis asteroid pos
+ es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
+ sbdb_lookup.html#/?sstr=54561777
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2025 VF5)
+DTSTART:20251123T125500Z
+DTEND:20251123T130000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
+ m (~11 meters\, ~0.1 football fields)\n\nVelocity: 7.82 km/s (~28\,134 km/
+ h\, ~31.3x jet speed)\n\nDistance: 1\,171\,516 km (~3.0x Moon distance)\n\
+ nAbsolute Magnitude (H): 26.923\nOrbiting Body: Earth\n\nThis asteroid pos
  es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
  sbdb_lookup.html#/?sstr=54561771
 END:VEVENT
@@ -116,9 +127,9 @@ SUMMARY:(2025 VP2)
 DTSTART:20251125T074000Z
 DTEND:20251125T074500Z
 DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.04–0.08 k
- m (~37 meters\, ~0.4 football fields)\n\nVelocity: 8.50 km/s (~30\,593 km/
- h\, ~34.0x jet speed)\n\nDistance: 2\,529\,948 km (~6.6x Moon distance)\n\
- nAbsolute Magnitude (H): 24.294\nOrbiting Body: Earth\n\nThis asteroid pos
+ m (~37 meters\, ~0.4 football fields)\n\nVelocity: 8.50 km/s (~30\,595 km/
+ h\, ~34.0x jet speed)\n\nDistance: 2\,530\,230 km (~6.6x Moon distance)\n\
+ nAbsolute Magnitude (H): 24.285\nOrbiting Body: Earth\n\nThis asteroid pos
  es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
  sbdb_lookup.html#/?sstr=54561505
 END:VEVENT
