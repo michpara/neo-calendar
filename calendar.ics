@@ -2,17 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
-SUMMARY:(2013 NJ4)
-DTSTART:20251120T023000Z
-DTEND:20251120T023500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
- m (~9 meters\, ~0.1 football fields)\n\nVelocity: 6.36 km/s (~22\,908 km/h
- \, ~25.5x jet speed)\n\nDistance: 4\,823\,403 km (~12.5x Moon distance)\n\
- nAbsolute Magnitude (H): 27.4\nOrbiting Body: Earth\n\nThis asteroid poses
-  no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/sb
- db_lookup.html#/?sstr=3644727
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2022 WO6)
 DTSTART:20251121T060500Z
 DTEND:20251121T061000Z
