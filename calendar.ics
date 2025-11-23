@@ -2,39 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
-SUMMARY:(2021 VP8)
-DTSTART:20251122T091000Z
-DTEND:20251122T091500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.03 k
- m (~15 meters\, ~0.2 football fields)\n\nVelocity: 9.88 km/s (~35\,558 km/
- h\, ~39.5x jet speed)\n\nDistance: 17\,210\,061 km (~44.8x Moon distance)\
- n\nAbsolute Magnitude (H): 26.29\nOrbiting Body: Earth\n\nThis asteroid po
- ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
- /sbdb_lookup.html#/?sstr=54218583
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(2021 VX22)
-DTSTART:20251122T174500Z
-DTEND:20251122T175000Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
- m (~2 meters\, ~0.0 football fields)\n\nVelocity: 14.96 km/s (~53\,855 km/
- h\, ~59.8x jet speed)\n\nDistance: 64\,205\,891 km (~167.0x Moon distance)
- \n\nAbsolute Magnitude (H): 30.27\nOrbiting Body: Earth\n\nThis asteroid p
- oses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tool
- s/sbdb_lookup.html#/?sstr=54221205
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(2025 VM5)
-DTSTART:20251122T033000Z
-DTEND:20251122T033500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
- m (~11 meters\, ~0.1 football fields)\n\nVelocity: 4.46 km/s (~16\,043 km/
- h\, ~17.8x jet speed)\n\nDistance: 1\,063\,903 km (~2.8x Moon distance)\n\
- nAbsolute Magnitude (H): 27.014\nOrbiting Body: Earth\n\nThis asteroid pos
- es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
- sbdb_lookup.html#/?sstr=54561777
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2025 VF5)
 DTSTART:20251123T125500Z
 DTEND:20251123T130000Z
