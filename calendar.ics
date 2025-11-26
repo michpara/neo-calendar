@@ -1,4 +1,37 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
+BEGIN:VEVENT
+SUMMARY:(2018 WG2)
+DTSTART:20251127T192500Z
+DTEND:20251127T193000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
+ m (~3 meters\, ~0.0 football fields)\n\nVelocity: 7.51 km/s (~27\,036 km/h
+ \, ~30.0x jet speed)\n\nDistance: 5\,179\,274 km (~13.5x Moon distance)\n\
+ nAbsolute Magnitude (H): 30.1\nOrbiting Body: Earth\n\nThis asteroid poses
+  no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/sb
+ db_lookup.html#/?sstr=3836416
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2014 FX32)
+DTSTART:20251201T153500Z
+DTEND:20251201T154000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.03–0.06 k
+ m (~27 meters\, ~0.3 football fields)\n\nVelocity: 18.47 km/s (~66\,500 km
+ /h\, ~73.9x jet speed)\n\nDistance: 47\,840\,720 km (~124.5x Moon distance
+ )\n\nAbsolute Magnitude (H): 25.0\nOrbiting Body: Earth\n\nThis asteroid p
+ oses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tool
+ s/sbdb_lookup.html#/?sstr=3666540
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2017 KB3)
+DTSTART:20251203T151500Z
+DTEND:20251203T152000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.03–0.06 k
+ m (~25 meters\, ~0.3 football fields)\n\nVelocity: 10.47 km/s (~37\,708 km
+ /h\, ~41.9x jet speed)\n\nDistance: 43\,244\,036 km (~112.5x Moon distance
+ )\n\nAbsolute Magnitude (H): 25.1\nOrbiting Body: Earth\n\nThis asteroid p
+ oses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tool
+ s/sbdb_lookup.html#/?sstr=3774688
+END:VEVENT
 END:VCALENDAR
