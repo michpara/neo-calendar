@@ -16,10 +16,10 @@ BEGIN:VEVENT
 SUMMARY:(2025 WD10)
 DTSTART:20251206T102000Z
 DTEND:20251206T102500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
- m (~11 meters\, ~0.1 football fields)\n\nVelocity: 6.89 km/s (~24\,791 km/
- h\, ~27.5x jet speed)\n\nDistance: 2\,967\,077 km (~7.7x Moon distance)\n\
- nAbsolute Magnitude (H): 26.909\nOrbiting Body: Earth\n\nThis asteroid pos
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.03 k
+ m (~11 meters\, ~0.1 football fields)\n\nVelocity: 6.88 km/s (~24\,783 km/
+ h\, ~27.5x jet speed)\n\nDistance: 2\,965\,838 km (~7.7x Moon distance)\n\
+ nAbsolute Magnitude (H): 26.873\nOrbiting Body: Earth\n\nThis asteroid pos
  es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
  sbdb_lookup.html#/?sstr=54564360
 END:VEVENT
@@ -72,9 +72,9 @@ SUMMARY:(2025 WD3)
 DTSTART:20251209T044500Z
 DTEND:20251209T045000Z
 DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.04–0.10 k
- m (~44 meters\, ~0.5 football fields)\n\nVelocity: 20.59 km/s (~74\,125 km
- /h\, ~82.4x jet speed)\n\nDistance: 11\,003\,128 km (~28.6x Moon distance)
- \n\nAbsolute Magnitude (H): 23.885\nOrbiting Body: Earth\n\nThis asteroid 
+ m (~43 meters\, ~0.5 football fields)\n\nVelocity: 20.57 km/s (~74\,058 km
+ /h\, ~82.3x jet speed)\n\nDistance: 10\,993\,498 km (~28.6x Moon distance)
+ \n\nAbsolute Magnitude (H): 23.932\nOrbiting Body: Earth\n\nThis asteroid 
  poses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/too
  ls/sbdb_lookup.html#/?sstr=54563253
 END:VEVENT
