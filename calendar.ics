@@ -2,17 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
-SUMMARY:(2021 WA1)
-DTSTART:20251205T193500Z
-DTEND:20251205T194000Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
- m (~8 meters\, ~0.1 football fields)\n\nVelocity: 8.96 km/s (~32\,272 km/h
- \, ~35.9x jet speed)\n\nDistance: 35\,953\,212 km (~93.5x Moon distance)\n
- \nAbsolute Magnitude (H): 27.7\nOrbiting Body: Earth\n\nThis asteroid pose
- s no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/s
- bdb_lookup.html#/?sstr=54224159
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2021 SU1)
 DTSTART:20251206T210000Z
 DTEND:20251206T210500Z
@@ -110,5 +99,16 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
  \n\nAbsolute Magnitude (H): 27.45\nOrbiting Body: Earth\n\nThis asteroid p
  oses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tool
  s/sbdb_lookup.html#/?sstr=54292462
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2024 LG5)
+DTSTART:20251213T200500Z
+DTEND:20251213T201000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.03 k
+ m (~13 meters\, ~0.1 football fields)\n\nVelocity: 5.46 km/s (~19\,667 km/
+ h\, ~21.9x jet speed)\n\nDistance: 12\,742\,945 km (~33.2x Moon distance)\
+ n\nAbsolute Magnitude (H): 26.62\nOrbiting Body: Earth\n\nThis asteroid po
+ ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
+ /sbdb_lookup.html#/?sstr=54447953
 END:VEVENT
 END:VCALENDAR
