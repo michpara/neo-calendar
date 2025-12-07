@@ -1,4 +1,15 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
+BEGIN:VEVENT
+SUMMARY:(2020 QR5)
+DTSTART:20251207T033500Z
+DTEND:20251207T034000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
+ m (~9 meters\, ~0.1 football fields)\n\nVelocity: 8.04 km/s (~28\,956 km/h
+ \, ~32.2x jet speed)\n\nDistance: 61\,944\,064 km (~161.1x Moon distance)\
+ n\nAbsolute Magnitude (H): 27.34\nOrbiting Body: Earth\n\nThis asteroid po
+ ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
+ /sbdb_lookup.html#/?sstr=54051397
+END:VEVENT
 END:VCALENDAR
