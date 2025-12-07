@@ -2,28 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
-SUMMARY:(2021 SU1)
-DTSTART:20251206T210000Z
-DTEND:20251206T210500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.03 k
- m (~13 meters\, ~0.1 football fields)\n\nVelocity: 11.71 km/s (~42\,156 km
- /h\, ~46.8x jet speed)\n\nDistance: 26\,416\,982 km (~68.7x Moon distance)
- \n\nAbsolute Magnitude (H): 26.57\nOrbiting Body: Earth\n\nThis asteroid p
- oses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tool
- s/sbdb_lookup.html#/?sstr=54200305
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(2025 WD10)
-DTSTART:20251206T102000Z
-DTEND:20251206T102500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.03 k
- m (~11 meters\, ~0.1 football fields)\n\nVelocity: 6.88 km/s (~24\,783 km/
- h\, ~27.5x jet speed)\n\nDistance: 2\,965\,838 km (~7.7x Moon distance)\n\
- nAbsolute Magnitude (H): 26.873\nOrbiting Body: Earth\n\nThis asteroid pos
- es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
- sbdb_lookup.html#/?sstr=54564360
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2020 QR5)
 DTSTART:20251207T033500Z
 DTEND:20251207T034000Z
