@@ -2,28 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
-SUMMARY:(2020 QR5)
-DTSTART:20251207T033500Z
-DTEND:20251207T034000Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
- m (~9 meters\, ~0.1 football fields)\n\nVelocity: 8.04 km/s (~28\,956 km/h
- \, ~32.2x jet speed)\n\nDistance: 61\,944\,064 km (~161.1x Moon distance)\
- n\nAbsolute Magnitude (H): 27.34\nOrbiting Body: Earth\n\nThis asteroid po
- ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
- /sbdb_lookup.html#/?sstr=54051397
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(2023 SN1)
-DTSTART:20251207T002500Z
-DTEND:20251207T003000Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
- m (~4 meters\, ~0.0 football fields)\n\nVelocity: 15.15 km/s (~54\,541 km/
- h\, ~60.6x jet speed)\n\nDistance: 45\,539\,207 km (~118.5x Moon distance)
- \n\nAbsolute Magnitude (H): 29.32\nOrbiting Body: Earth\n\nThis asteroid p
- oses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tool
- s/sbdb_lookup.html#/?sstr=54385238
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2021 JE1)
 DTSTART:20251208T195000Z
 DTEND:20251208T195500Z
@@ -88,5 +66,27 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.03 k
  n\nAbsolute Magnitude (H): 26.62\nOrbiting Body: Earth\n\nThis asteroid po
  ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
  /sbdb_lookup.html#/?sstr=54447953
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2016 SA2)
+DTSTART:20251215T061000Z
+DTEND:20251215T061500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.01 k
+ m (~6 meters\, ~0.1 football fields)\n\nVelocity: 5.77 km/s (~20\,763 km/h
+ \, ~23.1x jet speed)\n\nDistance: 50\,196\,737 km (~130.6x Moon distance)\
+ n\nAbsolute Magnitude (H): 28.12\nOrbiting Body: Earth\n\nThis asteroid po
+ ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
+ /sbdb_lookup.html#/?sstr=3759724
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2025 WA14)
+DTSTART:20251215T092500Z
+DTEND:20251215T093000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.03–0.06 k
+ m (~25 meters\, ~0.3 football fields)\n\nVelocity: 9.35 km/s (~33\,647 km/
+ h\, ~37.4x jet speed)\n\nDistance: 7\,670\,727 km (~20.0x Moon distance)\n
+ \nAbsolute Magnitude (H): 25.118\nOrbiting Body: Earth\n\nThis asteroid po
+ ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
+ /sbdb_lookup.html#/?sstr=54564660
 END:VEVENT
 END:VCALENDAR
