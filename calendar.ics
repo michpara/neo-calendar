@@ -13,15 +13,15 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.01 k
  bdb_lookup.html#/?sstr=54506551
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:(2025 WD3)
-DTSTART:20251209T044500Z
-DTEND:20251209T045000Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.04–0.10 k
- m (~43 meters\, ~0.5 football fields)\n\nVelocity: 20.57 km/s (~74\,058 km
- /h\, ~82.3x jet speed)\n\nDistance: 10\,993\,498 km (~28.6x Moon distance)
- \n\nAbsolute Magnitude (H): 23.932\nOrbiting Body: Earth\n\nThis asteroid 
- poses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/too
- ls/sbdb_lookup.html#/?sstr=54563253
+SUMMARY:(2025 XM)
+DTSTART:20251209T075000Z
+DTEND:20251209T075500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.02–0.04 k
+ m (~20 meters\, ~0.2 football fields)\n\nVelocity: 12.58 km/s (~45\,273 km
+ /h\, ~50.3x jet speed)\n\nDistance: 474\,255 km (~1.2x Moon distance)\n\nA
+ bsolute Magnitude (H): 25.646\nOrbiting Body: Earth\n\nThis asteroid poses
+  no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/sb
+ db_lookup.html#/?sstr=54565835
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(2020 YA2)
@@ -72,9 +72,9 @@ SUMMARY:(2025 WA14)
 DTSTART:20251215T092500Z
 DTEND:20251215T093000Z
 DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.03–0.06 k
- m (~25 meters\, ~0.3 football fields)\n\nVelocity: 9.35 km/s (~33\,647 km/
- h\, ~37.4x jet speed)\n\nDistance: 7\,670\,727 km (~20.0x Moon distance)\n
- \nAbsolute Magnitude (H): 25.118\nOrbiting Body: Earth\n\nThis asteroid po
+ m (~25 meters\, ~0.3 football fields)\n\nVelocity: 9.35 km/s (~33\,662 km/
+ h\, ~37.4x jet speed)\n\nDistance: 7\,672\,665 km (~20.0x Moon distance)\n
+ \nAbsolute Magnitude (H): 25.113\nOrbiting Body: Earth\n\nThis asteroid po
  ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
  /sbdb_lookup.html#/?sstr=54564660
 END:VEVENT
