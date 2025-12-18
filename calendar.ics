@@ -2,17 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
-SUMMARY:(2021 MU)
-DTSTART:20251217T235000Z
-DTEND:20251217T235500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
- m (~9 meters\, ~0.1 football fields)\n\nVelocity: 5.66 km/s (~20\,364 km/h
- \, ~22.6x jet speed)\n\nDistance: 46\,143\,564 km (~120.0x Moon distance)\
- n\nAbsolute Magnitude (H): 27.4\nOrbiting Body: Earth\n\nThis asteroid pos
- es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
- sbdb_lookup.html#/?sstr=54161708
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2022 NX)
 DTSTART:20251219T213500Z
 DTEND:20251219T214000Z
