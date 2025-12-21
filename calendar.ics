@@ -34,4 +34,15 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.02–0.04 k
  es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
  sbdb_lookup.html#/?sstr=3788891
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2009 WW7)
+DTSTART:20251228T213000Z
+DTEND:20251228T213500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
+ m (~4 meters\, ~0.0 football fields)\n\nVelocity: 6.33 km/s (~22\,771 km/h
+ \, ~25.3x jet speed)\n\nDistance: 42\,282\,489 km (~110.0x Moon distance)\
+ n\nAbsolute Magnitude (H): 28.9\nOrbiting Body: Earth\n\nThis asteroid pos
+ es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
+ sbdb_lookup.html#/?sstr=3477940
+END:VEVENT
 END:VCALENDAR
