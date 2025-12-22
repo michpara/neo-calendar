@@ -2,28 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
-SUMMARY:(2007 EK)
-DTSTART:20251221T140500Z
-DTEND:20251221T141000Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
- m (~4 meters\, ~0.0 football fields)\n\nVelocity: 8.78 km/s (~31\,614 km/h
- \, ~35.1x jet speed)\n\nDistance: 64\,839\,126 km (~168.7x Moon distance)\
- n\nAbsolute Magnitude (H): 29.3\nOrbiting Body: Earth\n\nThis asteroid pos
- es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
- sbdb_lookup.html#/?sstr=3370278
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(2010 TW54)
-DTSTART:20251221T130500Z
-DTEND:20251221T131000Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
- m (~8 meters\, ~0.1 football fields)\n\nVelocity: 7.20 km/s (~25\,936 km/h
- \, ~28.8x jet speed)\n\nDistance: 45\,802\,544 km (~119.2x Moon distance)\
- n\nAbsolute Magnitude (H): 27.6\nOrbiting Body: Earth\n\nThis asteroid pos
- es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
- sbdb_lookup.html#/?sstr=3548666
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2017 UA45)
 DTSTART:20251222T172500Z
 DTEND:20251222T173000Z
