@@ -45,4 +45,15 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
  ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
  /sbdb_lookup.html#/?sstr=54496395
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2025 KE4)
+DTSTART:20260104T083500Z
+DTEND:20260104T084000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
+ m (~4 meters\, ~0.0 football fields)\n\nVelocity: 3.98 km/s (~14\,316 km/h
+ \, ~15.9x jet speed)\n\nDistance: 26\,190\,241 km (~68.1x Moon distance)\n
+ \nAbsolute Magnitude (H): 29.26\nOrbiting Body: Earth\n\nThis asteroid pos
+ es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
+ sbdb_lookup.html#/?sstr=54533421
+END:VEVENT
 END:VCALENDAR
