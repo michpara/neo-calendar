@@ -67,4 +67,15 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.08–0.17 k
   poses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/to
  ols/sbdb_lookup.html#/?sstr=54569942
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2024 TQ9)
+DTSTART:20260106T155000Z
+DTEND:20260106T155500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.00 k
+ m (~2 meters\, ~0.0 football fields)\n\nVelocity: 20.68 km/s (~74\,454 km/
+ h\, ~82.7x jet speed)\n\nDistance: 65\,136\,170 km (~169.4x Moon distance)
+ \n\nAbsolute Magnitude (H): 30.76\nOrbiting Body: Earth\n\nThis asteroid p
+ oses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tool
+ s/sbdb_lookup.html#/?sstr=54490130
+END:VEVENT
 END:VCALENDAR
