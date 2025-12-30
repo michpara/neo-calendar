@@ -2,39 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
-SUMMARY:(2023 XN15)
-DTSTART:20260102T140000Z
-DTEND:20260102T140500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.03 k
- m (~12 meters\, ~0.1 football fields)\n\nVelocity: 30.66 km/s (~110\,389 k
- m/h\, ~122.7x jet speed)\n\nDistance: 58\,743\,359 km (~152.8x Moon distan
- ce)\n\nAbsolute Magnitude (H): 26.69\nOrbiting Body: Earth\n\nThis asteroi
- d poses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/t
- ools/sbdb_lookup.html#/?sstr=54417171
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(2024 UV7)
-DTSTART:20260102T232500Z
-DTEND:20260102T233000Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
- m (~4 meters\, ~0.0 football fields)\n\nVelocity: 9.04 km/s (~32\,548 km/h
- \, ~36.2x jet speed)\n\nDistance: 42\,391\,302 km (~110.3x Moon distance)\
- n\nAbsolute Magnitude (H): 29.37\nOrbiting Body: Earth\n\nThis asteroid po
- ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
- /sbdb_lookup.html#/?sstr=54496395
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(2025 KE4)
-DTSTART:20260104T083500Z
-DTEND:20260104T084000Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
- m (~4 meters\, ~0.0 football fields)\n\nVelocity: 3.98 km/s (~14\,316 km/h
- \, ~15.9x jet speed)\n\nDistance: 26\,190\,241 km (~68.1x Moon distance)\n
- \nAbsolute Magnitude (H): 29.26\nOrbiting Body: Earth\n\nThis asteroid pos
- es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
- sbdb_lookup.html#/?sstr=54533421
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2008 ST)
 DTSTART:20260105T083000Z
 DTEND:20260105T083500Z
@@ -44,38 +11,5 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
  n\nAbsolute Magnitude (H): 27.1\nOrbiting Body: Earth\n\nThis asteroid pos
  es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
  sbdb_lookup.html#/?sstr=3427460
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(2024 HO2)
-DTSTART:20260105T112000Z
-DTEND:20260105T112500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
- m (~3 meters\, ~0.0 football fields)\n\nVelocity: 17.80 km/s (~64\,088 km/
- h\, ~71.2x jet speed)\n\nDistance: 74\,722\,614 km (~194.4x Moon distance)
- \n\nAbsolute Magnitude (H): 29.47\nOrbiting Body: Earth\n\nThis asteroid p
- oses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tool
- s/sbdb_lookup.html#/?sstr=54438673
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(2025 YX4)
-DTSTART:20260105T180500Z
-DTEND:20260105T181000Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.08–0.17 k
- m (~77 meters\, ~0.8 football fields)\n\nVelocity: 25.18 km/s (~90\,657 km
- /h\, ~100.7x jet speed)\n\nDistance: 12\,730\,745 km (~33.1x Moon distance
- )\n\nAbsolute Magnitude (H): 22.683\nOrbiting Body: Earth\n\nThis asteroid
-  poses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/to
- ols/sbdb_lookup.html#/?sstr=54569942
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(2024 TQ9)
-DTSTART:20260106T155000Z
-DTEND:20260106T155500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.00 k
- m (~2 meters\, ~0.0 football fields)\n\nVelocity: 20.68 km/s (~74\,454 km/
- h\, ~82.7x jet speed)\n\nDistance: 65\,136\,170 km (~169.4x Moon distance)
- \n\nAbsolute Magnitude (H): 30.76\nOrbiting Body: Earth\n\nThis asteroid p
- oses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tool
- s/sbdb_lookup.html#/?sstr=54490130
 END:VEVENT
 END:VCALENDAR
