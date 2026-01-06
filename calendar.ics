@@ -1,26 +1,4 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
-BEGIN:VEVENT
-SUMMARY:(2024 TQ9)
-DTSTART:20260106T155000Z
-DTEND:20260106T155500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.00 k
- m (~2 meters\, ~0.0 football fields)\n\nVelocity: 20.68 km/s (~74\,454 km/
- h\, ~82.7x jet speed)\n\nDistance: 65\,136\,170 km (~169.4x Moon distance)
- \n\nAbsolute Magnitude (H): 30.76\nOrbiting Body: Earth\n\nThis asteroid p
- oses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tool
- s/sbdb_lookup.html#/?sstr=54490130
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(2022 UV4)
-DTSTART:20260109T052500Z
-DTEND:20260109T053000Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
- m (~5 meters\, ~0.1 football fields)\n\nVelocity: 7.36 km/s (~26\,491 km/h
- \, ~29.4x jet speed)\n\nDistance: 69\,057\,814 km (~179.7x Moon distance)\
- n\nAbsolute Magnitude (H): 28.82\nOrbiting Body: Earth\n\nThis asteroid po
- ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
- /sbdb_lookup.html#/?sstr=54317892
-END:VEVENT
 END:VCALENDAR
