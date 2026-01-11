@@ -2,17 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
-SUMMARY:(2026 AB)
-DTSTART:20260110T041000Z
-DTEND:20260110T041500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
- m (~8 meters\, ~0.1 football fields)\n\nVelocity: 9.11 km/s (~32\,812 km/h
- \, ~36.5x jet speed)\n\nDistance: 800\,121 km (~2.1x Moon distance)\n\nAbs
- olute Magnitude (H): 27.501\nOrbiting Body: Earth\n\nThis asteroid poses n
- o risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/sbdb
- _lookup.html#/?sstr=54574838
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2026 AJ)
 DTSTART:20260112T010500Z
 DTEND:20260112T011000Z
@@ -66,5 +55,16 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
  nAbsolute Magnitude (H): 29.9\nOrbiting Body: Earth\n\nThis asteroid poses
   no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/sb
  db_lookup.html#/?sstr=3555208
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2022 SU7)
+DTSTART:20260118T174000Z
+DTEND:20260118T174500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.01 k
+ m (~6 meters\, ~0.1 football fields)\n\nVelocity: 5.01 km/s (~18\,037 km/h
+ \, ~20.0x jet speed)\n\nDistance: 22\,400\,299 km (~58.3x Moon distance)\n
+ \nAbsolute Magnitude (H): 28.31\nOrbiting Body: Earth\n\nThis asteroid pos
+ es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
+ sbdb_lookup.html#/?sstr=54307197
 END:VEVENT
 END:VCALENDAR
