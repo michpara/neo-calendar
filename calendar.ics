@@ -2,6 +2,17 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
+SUMMARY:(2026 AJ)
+DTSTART:20260112T010500Z
+DTEND:20260112T011000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
+ m (~9 meters\, ~0.1 football fields)\n\nVelocity: 9.18 km/s (~33\,062 km/h
+ \, ~36.7x jet speed)\n\nDistance: 1\,545\,823 km (~4.0x Moon distance)\n\n
+ Absolute Magnitude (H): 27.239\nOrbiting Body: Earth\n\nThis asteroid pose
+ s no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/s
+ bdb_lookup.html#/?sstr=54574878
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:(2014 YN)
 DTSTART:20260115T061500Z
 DTEND:20260115T062000Z
@@ -13,6 +24,28 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.02–0.04 k
  /sbdb_lookup.html#/?sstr=3702671
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:(2021 US1)
+DTSTART:20260115T090500Z
+DTEND:20260115T091000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
+ m (~8 meters\, ~0.1 football fields)\n\nVelocity: 12.03 km/s (~43\,291 km/
+ h\, ~48.1x jet speed)\n\nDistance: 43\,997\,715 km (~114.5x Moon distance)
+ \n\nAbsolute Magnitude (H): 27.7\nOrbiting Body: Earth\n\nThis asteroid po
+ ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
+ /sbdb_lookup.html#/?sstr=54212686
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2023 TQ3)
+DTSTART:20260115T173500Z
+DTEND:20260115T174000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.02–0.05 k
+ m (~20 meters\, ~0.2 football fields)\n\nVelocity: 10.29 km/s (~37\,033 km
+ /h\, ~41.1x jet speed)\n\nDistance: 49\,283\,336 km (~128.2x Moon distance
+ )\n\nAbsolute Magnitude (H): 25.59\nOrbiting Body: Earth\n\nThis asteroid 
+ poses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/too
+ ls/sbdb_lookup.html#/?sstr=54392070
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:(2011 AM37)
 DTSTART:20260117T215000Z
 DTEND:20260117T215500Z
@@ -22,5 +55,16 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
  nAbsolute Magnitude (H): 29.9\nOrbiting Body: Earth\n\nThis asteroid poses
   no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/sb
  db_lookup.html#/?sstr=3555208
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2022 SU7)
+DTSTART:20260118T174000Z
+DTEND:20260118T174500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.01 k
+ m (~6 meters\, ~0.1 football fields)\n\nVelocity: 5.01 km/s (~18\,037 km/h
+ \, ~20.0x jet speed)\n\nDistance: 22\,400\,299 km (~58.3x Moon distance)\n
+ \nAbsolute Magnitude (H): 28.31\nOrbiting Body: Earth\n\nThis asteroid pos
+ es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
+ sbdb_lookup.html#/?sstr=54307197
 END:VEVENT
 END:VCALENDAR
