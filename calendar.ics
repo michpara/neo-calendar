@@ -35,6 +35,17 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.02–0.05 k
  ls/sbdb_lookup.html#/?sstr=54392070
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:(2026 AZ2)
+DTSTART:20260115T055000Z
+DTEND:20260115T055500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
+ m (~10 meters\, ~0.1 football fields)\n\nVelocity: 17.96 km/s (~64\,663 km
+ /h\, ~71.8x jet speed)\n\nDistance: 349\,948 km (~0.9x Moon distance)\n\nA
+ bsolute Magnitude (H): 27.15\nOrbiting Body: Earth\n\nThis asteroid poses 
+ no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/sbd
+ b_lookup.html#/?sstr=54576079
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:(2011 AM37)
 DTSTART:20260117T215000Z
 DTEND:20260117T215500Z
