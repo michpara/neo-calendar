@@ -2,28 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
-SUMMARY:(2011 AM37)
-DTSTART:20260117T215000Z
-DTEND:20260117T215500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
- m (~3 meters\, ~0.0 football fields)\n\nVelocity: 5.14 km/s (~18\,488 km/h
- \, ~20.5x jet speed)\n\nDistance: 7\,579\,138 km (~19.7x Moon distance)\n\
- nAbsolute Magnitude (H): 29.9\nOrbiting Body: Earth\n\nThis asteroid poses
-  no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/sb
- db_lookup.html#/?sstr=3555208
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(2026 AE4)
-DTSTART:20260117T015000Z
-DTEND:20260117T015500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
- m (~4 meters\, ~0.0 football fields)\n\nVelocity: 8.23 km/s (~29\,611 km/h
- \, ~32.9x jet speed)\n\nDistance: 205\,461 km (~0.5x Moon distance)\n\nAbs
- olute Magnitude (H): 29.262\nOrbiting Body: Earth\n\nThis asteroid poses n
- o risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/sbdb
- _lookup.html#/?sstr=54576284
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2022 SU7)
 DTSTART:20260118T174000Z
 DTEND:20260118T174500Z
@@ -77,5 +55,27 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
  \nAbsolute Magnitude (H): 27.9\nOrbiting Body: Earth\n\nThis asteroid pose
  s no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/s
  bdb_lookup.html#/?sstr=3739154
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2018 GE)
+DTSTART:20260125T013500Z
+DTEND:20260125T014000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
+ m (~8 meters\, ~0.1 football fields)\n\nVelocity: 1.91 km/s (~6\,875 km/h\
+ , ~7.6x jet speed)\n\nDistance: 15\,912\,457 km (~41.4x Moon distance)\n\n
+ Absolute Magnitude (H): 27.5\nOrbiting Body: Earth\n\nThis asteroid poses 
+ no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/sbd
+ b_lookup.html#/?sstr=3802390
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2025 NL)
+DTSTART:20260125T124500Z
+DTEND:20260125T125000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
+ m (~8 meters\, ~0.1 football fields)\n\nVelocity: 3.14 km/s (~11\,302 km/h
+ \, ~12.6x jet speed)\n\nDistance: 14\,777\,005 km (~38.4x Moon distance)\n
+ \nAbsolute Magnitude (H): 27.61\nOrbiting Body: Earth\n\nThis asteroid pos
+ es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
+ sbdb_lookup.html#/?sstr=54537919
 END:VEVENT
 END:VCALENDAR
