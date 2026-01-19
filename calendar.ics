@@ -2,28 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
-SUMMARY:(2022 SU7)
-DTSTART:20260118T174000Z
-DTEND:20260118T174500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.01 k
- m (~6 meters\, ~0.1 football fields)\n\nVelocity: 5.01 km/s (~18\,037 km/h
- \, ~20.0x jet speed)\n\nDistance: 22\,400\,299 km (~58.3x Moon distance)\n
- \nAbsolute Magnitude (H): 28.31\nOrbiting Body: Earth\n\nThis asteroid pos
- es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
- sbdb_lookup.html#/?sstr=54307197
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(2026 AS1)
-DTSTART:20260118T142500Z
-DTEND:20260118T143000Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.03 k
- m (~15 meters\, ~0.2 football fields)\n\nVelocity: 7.08 km/s (~25\,486 km/
- h\, ~28.3x jet speed)\n\nDistance: 3\,135\,024 km (~8.2x Moon distance)\n\
- nAbsolute Magnitude (H): 26.275\nOrbiting Body: Earth\n\nThis asteroid pos
- es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
- sbdb_lookup.html#/?sstr=54575650
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2021 BR2)
 DTSTART:20260120T205000Z
 DTEND:20260120T205500Z
