@@ -56,4 +56,15 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.01 k
   risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/sbdb_
  lookup.html#/?sstr=54292217
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2023 UY)
+DTSTART:20260201T212000Z
+DTEND:20260201T212500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
+ m (~3 meters\, ~0.0 football fields)\n\nVelocity: 20.54 km/s (~73\,944 km/
+ h\, ~82.2x jet speed)\n\nDistance: 61\,327\,438 km (~159.5x Moon distance)
+ \n\nAbsolute Magnitude (H): 29.96\nOrbiting Body: Earth\n\nThis asteroid p
+ oses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tool
+ s/sbdb_lookup.html#/?sstr=54395898
+END:VEVENT
 END:VCALENDAR
