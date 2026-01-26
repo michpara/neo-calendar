@@ -2,28 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
-SUMMARY:(2018 GE)
-DTSTART:20260125T013500Z
-DTEND:20260125T014000Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
- m (~8 meters\, ~0.1 football fields)\n\nVelocity: 1.91 km/s (~6\,875 km/h\
- , ~7.6x jet speed)\n\nDistance: 15\,912\,457 km (~41.4x Moon distance)\n\n
- Absolute Magnitude (H): 27.5\nOrbiting Body: Earth\n\nThis asteroid poses 
- no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/sbd
- b_lookup.html#/?sstr=3802390
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(2025 NL)
-DTSTART:20260125T124500Z
-DTEND:20260125T125000Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
- m (~8 meters\, ~0.1 football fields)\n\nVelocity: 3.14 km/s (~11\,302 km/h
- \, ~12.6x jet speed)\n\nDistance: 14\,777\,005 km (~38.4x Moon distance)\n
- \nAbsolute Magnitude (H): 27.61\nOrbiting Body: Earth\n\nThis asteroid pos
- es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
- sbdb_lookup.html#/?sstr=54537919
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2023 XB4)
 DTSTART:20260127T002500Z
 DTEND:20260127T003000Z
@@ -66,5 +44,16 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
  \n\nAbsolute Magnitude (H): 29.96\nOrbiting Body: Earth\n\nThis asteroid p
  oses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tool
  s/sbdb_lookup.html#/?sstr=54395898
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2024 UB1)
+DTSTART:20260202T130000Z
+DTEND:20260202T130500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.01 k
+ m (~5 meters\, ~0.1 football fields)\n\nVelocity: 15.96 km/s (~57\,458 km/
+ h\, ~63.8x jet speed)\n\nDistance: 48\,491\,863 km (~126.1x Moon distance)
+ \n\nAbsolute Magnitude (H): 28.47\nOrbiting Body: Earth\n\nThis asteroid p
+ oses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tool
+ s/sbdb_lookup.html#/?sstr=54494481
 END:VEVENT
 END:VCALENDAR
