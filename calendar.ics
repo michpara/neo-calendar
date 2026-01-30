@@ -2,17 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
-SUMMARY:(2012 WS3)
-DTSTART:20260129T163500Z
-DTEND:20260129T164000Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.02–0.04 k
- m (~17 meters\, ~0.2 football fields)\n\nVelocity: 8.74 km/s (~31\,454 km/
- h\, ~34.9x jet speed)\n\nDistance: 63\,772\,109 km (~165.9x Moon distance)
- \n\nAbsolute Magnitude (H): 26.0\nOrbiting Body: Earth\n\nThis asteroid po
- ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
- /sbdb_lookup.html#/?sstr=3618405
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2022 OC3)
 DTSTART:20260131T234000Z
 DTEND:20260131T234500Z
