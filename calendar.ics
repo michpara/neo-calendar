@@ -2,6 +2,28 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
+SUMMARY:(2024 UB1)
+DTSTART:20260202T130000Z
+DTEND:20260202T130500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.01 k
+ m (~5 meters\, ~0.1 football fields)\n\nVelocity: 15.96 km/s (~57\,458 km/
+ h\, ~63.8x jet speed)\n\nDistance: 48\,491\,863 km (~126.1x Moon distance)
+ \n\nAbsolute Magnitude (H): 28.47\nOrbiting Body: Earth\n\nThis asteroid p
+ oses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tool
+ s/sbdb_lookup.html#/?sstr=54494481
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2026 BS7)
+DTSTART:20260204T115000Z
+DTEND:20260204T115500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.03 k
+ m (~13 meters\, ~0.1 football fields)\n\nVelocity: 10.45 km/s (~37\,632 km
+ /h\, ~41.8x jet speed)\n\nDistance: 1\,463\,779 km (~3.8x Moon distance)\n
+ \nAbsolute Magnitude (H): 26.551\nOrbiting Body: Earth\n\nThis asteroid po
+ ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
+ /sbdb_lookup.html#/?sstr=54579527
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:(2021 CD)
 DTSTART:20260205T184500Z
 DTEND:20260205T185000Z
@@ -33,5 +55,16 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.01 k
  n\nAbsolute Magnitude (H): 28.41\nOrbiting Body: Earth\n\nThis asteroid po
  ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
  /sbdb_lookup.html#/?sstr=54199510
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2025 CM1)
+DTSTART:20260205T055000Z
+DTEND:20260205T055500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
+ m (~7 meters\, ~0.1 football fields)\n\nVelocity: 11.29 km/s (~40\,660 km/
+ h\, ~45.2x jet speed)\n\nDistance: 15\,536\,394 km (~40.4x Moon distance)\
+ n\nAbsolute Magnitude (H): 27.75\nOrbiting Body: Earth\n\nThis asteroid po
+ ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
+ /sbdb_lookup.html#/?sstr=54518709
 END:VEVENT
 END:VCALENDAR
