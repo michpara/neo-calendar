@@ -67,4 +67,15 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.05–0.10 k
  poses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/too
  ls/sbdb_lookup.html#/?sstr=54391031
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2021 DR)
+DTSTART:20260216T200500Z
+DTEND:20260216T201000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
+ m (~7 meters\, ~0.1 football fields)\n\nVelocity: 17.95 km/s (~64\,629 km/
+ h\, ~71.8x jet speed)\n\nDistance: 69\,081\,208 km (~179.7x Moon distance)
+ \n\nAbsolute Magnitude (H): 27.78\nOrbiting Body: Earth\n\nThis asteroid p
+ oses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tool
+ s/sbdb_lookup.html#/?sstr=54123261
+END:VEVENT
 END:VCALENDAR
