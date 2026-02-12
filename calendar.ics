@@ -1,4 +1,15 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
+BEGIN:VEVENT
+SUMMARY:(2015 VK1)
+DTSTART:20260217T040000Z
+DTEND:20260217T040500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.03 k
+ m (~13 meters\, ~0.1 football fields)\n\nVelocity: 27.92 km/s (~100\,527 k
+ m/h\, ~111.7x jet speed)\n\nDistance: 70\,371\,352 km (~183.1x Moon distan
+ ce)\n\nAbsolute Magnitude (H): 26.6\nOrbiting Body: Earth\n\nThis asteroid
+  poses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/to
+ ols/sbdb_lookup.html#/?sstr=3733138
+END:VEVENT
 END:VCALENDAR
