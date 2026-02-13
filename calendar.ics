@@ -2,17 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
-SUMMARY:(2022 EA7)
-DTSTART:20260212T072500Z
-DTEND:20260212T073000Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
- m (~8 meters\, ~0.1 football fields)\n\nVelocity: 11.85 km/s (~42\,669 km/
- h\, ~47.4x jet speed)\n\nDistance: 45\,228\,799 km (~117.7x Moon distance)
- \n\nAbsolute Magnitude (H): 27.55\nOrbiting Body: Earth\n\nThis asteroid p
- oses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tool
- s/sbdb_lookup.html#/?sstr=54258263
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2023 CG2)
 DTSTART:20260213T201000Z
 DTEND:20260213T201500Z
