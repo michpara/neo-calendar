@@ -2,17 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
-SUMMARY:(2023 CG2)
-DTSTART:20260213T201000Z
-DTEND:20260213T201500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
- m (~10 meters\, ~0.1 football fields)\n\nVelocity: 23.24 km/s (~83\,658 km
- /h\, ~93.0x jet speed)\n\nDistance: 9\,134\,971 km (~23.8x Moon distance)\
- n\nAbsolute Magnitude (H): 27.07\nOrbiting Body: Earth\n\nThis asteroid po
- ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
- /sbdb_lookup.html#/?sstr=54341545
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2023 TB2)
 DTSTART:20260214T133000Z
 DTEND:20260214T133500Z
