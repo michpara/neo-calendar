@@ -1,15 +1,4 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
-BEGIN:VEVENT
-SUMMARY:(2026 CN3)
-DTSTART:20260222T183000Z
-DTEND:20260222T183500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.02–0.06 k
- m (~25 meters\, ~0.3 football fields)\n\nVelocity: 20.57 km/s (~74\,048 km
- /h\, ~82.3x jet speed)\n\nDistance: 3\,297\,732 km (~8.6x Moon distance)\n
- \nAbsolute Magnitude (H): 25.143\nOrbiting Body: Earth\n\nThis asteroid po
- ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
- /sbdb_lookup.html#/?sstr=54602796
-END:VEVENT
 END:VCALENDAR
