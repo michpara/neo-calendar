@@ -5,10 +5,10 @@ BEGIN:VEVENT
 SUMMARY:(2026 DD1)
 DTSTART:20260225T071500Z
 DTEND:20260225T072000Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.01 k
- m (~7 meters\, ~0.1 football fields)\n\nVelocity: 7.63 km/s (~27\,461 km/h
- \, ~30.5x jet speed)\n\nDistance: 1\,509\,762 km (~3.9x Moon distance)\n\n
- Absolute Magnitude (H): 27.996\nOrbiting Body: Earth\n\nThis asteroid pose
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
+ m (~7 meters\, ~0.1 football fields)\n\nVelocity: 7.63 km/s (~27\,465 km/h
+ \, ~30.5x jet speed)\n\nDistance: 1\,509\,815 km (~3.9x Moon distance)\n\n
+ Absolute Magnitude (H): 27.951\nOrbiting Body: Earth\n\nThis asteroid pose
  s no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/s
  bdb_lookup.html#/?sstr=54603186
 END:VEVENT
