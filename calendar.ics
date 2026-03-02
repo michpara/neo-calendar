@@ -89,4 +89,37 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.03–0.06 k
  oses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tool
  s/sbdb_lookup.html#/?sstr=54604131
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2012 DJ54)
+DTSTART:20260309T133000Z
+DTEND:20260309T133500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.01 k
+ m (~5 meters\, ~0.1 football fields)\n\nVelocity: 10.53 km/s (~37\,912 km/
+ h\, ~42.1x jet speed)\n\nDistance: 25\,451\,690 km (~66.2x Moon distance)\
+ n\nAbsolute Magnitude (H): 28.5\nOrbiting Body: Earth\n\nThis asteroid pos
+ es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
+ sbdb_lookup.html#/?sstr=3600106
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2024 UD11)
+DTSTART:20260309T050000Z
+DTEND:20260309T050500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
+ m (~4 meters\, ~0.0 football fields)\n\nVelocity: 15.82 km/s (~56\,967 km/
+ h\, ~63.3x jet speed)\n\nDistance: 58\,469\,695 km (~152.1x Moon distance)
+ \n\nAbsolute Magnitude (H): 29.36\nOrbiting Body: Earth\n\nThis asteroid p
+ oses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tool
+ s/sbdb_lookup.html#/?sstr=54496845
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2026 DH11)
+DTSTART:20260309T102000Z
+DTEND:20260309T102500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.03 k
+ m (~13 meters\, ~0.1 football fields)\n\nVelocity: 13.02 km/s (~46\,858 km
+ /h\, ~52.1x jet speed)\n\nDistance: 1\,268\,256 km (~3.3x Moon distance)\n
+ \nAbsolute Magnitude (H): 26.535\nOrbiting Body: Earth\n\nThis asteroid po
+ ses no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools
+ /sbdb_lookup.html#/?sstr=54604364
+END:VEVENT
 END:VCALENDAR
