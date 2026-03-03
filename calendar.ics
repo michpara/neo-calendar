@@ -2,17 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
-SUMMARY:(2026 DX6)
-DTSTART:20260302T215500Z
-DTEND:20260302T220000Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.01 k
- m (~6 meters\, ~0.1 football fields)\n\nVelocity: 6.72 km/s (~24\,187 km/h
- \, ~26.9x jet speed)\n\nDistance: 768\,493 km (~2.0x Moon distance)\n\nAbs
- olute Magnitude (H): 28.379\nOrbiting Body: Earth\n\nThis asteroid poses n
- o risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/sbdb
- _lookup.html#/?sstr=54603967
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2026 DN15)
 DTSTART:20260303T191000Z
 DTEND:20260303T191500Z
