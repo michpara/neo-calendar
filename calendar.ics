@@ -35,6 +35,17 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.02–0.04 k
  sbdb_lookup.html#/?sstr=3788891
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:(2021 ER)
+DTSTART:20260306T165500Z
+DTEND:20260306T170000Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.02 k
+ m (~10 meters\, ~0.1 football fields)\n\nVelocity: 3.96 km/s (~14\,267 km/
+ h\, ~15.9x jet speed)\n\nDistance: 2\,405\,896 km (~6.3x Moon distance)\n\
+ nAbsolute Magnitude (H): 27.03\nOrbiting Body: Earth\n\nThis asteroid pose
+ s no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/s
+ bdb_lookup.html#/?sstr=54130036
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:(2012 DJ54)
 DTSTART:20260309T133000Z
 DTEND:20260309T133500Z
@@ -44,6 +55,17 @@ DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.01–0.01 k
  n\nAbsolute Magnitude (H): 28.5\nOrbiting Body: Earth\n\nThis asteroid pos
  es no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/
  sbdb_lookup.html#/?sstr=3600106
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2023 ET2)
+DTSTART:20260311T044000Z
+DTEND:20260311T044500Z
+DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.00 k
+ m (~2 meters\, ~0.0 football fields)\n\nVelocity: 12.67 km/s (~45\,603 km/
+ h\, ~50.7x jet speed)\n\nDistance: 3\,002\,559 km (~7.8x Moon distance)\n\
+ nAbsolute Magnitude (H): 30.55\nOrbiting Body: Earth\n\nThis asteroid pose
+ s no risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/s
+ bdb_lookup.html#/?sstr=54349045
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(2019 SQ1)
