@@ -2,17 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Near Earth Asteroid Tracker//example.com//
 BEGIN:VEVENT
-SUMMARY:(2008 JL24)
-DTSTART:20260305T223000Z
-DTEND:20260305T223500Z
-DESCRIPTION:This asteroid is **NOT** hazardous.\n\nDiameter: 0.00–0.01 k
- m (~3 meters\, ~0.0 football fields)\n\nVelocity: 2.40 km/s (~8\,651 km/h\
- , ~9.6x jet speed)\n\nDistance: 9\,123\,043 km (~23.7x Moon distance)\n\nA
- bsolute Magnitude (H): 29.6\nOrbiting Body: Earth\n\nThis asteroid poses n
- o risk during this pass.\n\nMore Info: https://ssd.jpl.nasa.gov/tools/sbdb
- _lookup.html#/?sstr=3410533
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(2016 SX1)
 DTSTART:20260306T145000Z
 DTEND:20260306T145500Z
